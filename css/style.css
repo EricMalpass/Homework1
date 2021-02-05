@@ -16,6 +16,8 @@ header {
     color: #ffffff;
     padding-top: 15px;
     font-size: 25px;
+    display:flex;
+    justify-content:center;
 }
 /* This styles the nav button list and format within the header */
 nav {
@@ -23,7 +25,7 @@ nav {
     float: right;
     font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
-    padding: 0px 0px 15px 0px;
+    padding: 20px 0px 0px 0px;
 }
 
 nav ul {
@@ -34,7 +36,9 @@ nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+h1 {
+    padding-right: 450px;
+}
 /* The changes the color of the "seo" in the ocompany name*/
 span {
     color: #d9dcd6;
@@ -57,7 +61,7 @@ figure {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg"); /*Does there need to be an alt?*/
+    background-image: url("../images/digital-marketing-meeting.jpg"); 
     background-size: cover;
     background-position: center;
 }
